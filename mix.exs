@@ -1,7 +1,7 @@
 defmodule Membrane.SRT.Mixfile do
   use Mix.Project
 
-  @version "0.2.2"
+  @version "0.2.3"
   @github_url "https://github.com/membraneframework-labs/membrane_srt_plugin"
 
   def project do
@@ -43,7 +43,7 @@ defmodule Membrane.SRT.Mixfile do
       # MPEG-TS demuxer
       {:membrane_mpeg_ts_plugin, "~> 1.3.3"},
       # MPEG-TS muxer
-      {:membrane_mpegts_plugin, "~> 0.5.0"},
+      {:membrane_mpegts_plugin, "~> 0.6.3"},
       {:membrane_file_plugin, "~> 0.17.0", only: :test},
       {:membrane_realtimer_plugin, "~> 0.10.1", only: :test},
       {:ex_doc, ">= 0.40.0", only: :dev, runtime: false},
